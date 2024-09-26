@@ -2,9 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "modern-normalize";
 import "./index.css";
+import { Container, Section } from "./components";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <Section>
+      <Container></Container>
+    </Section>
+  );
 };
 
 export default App;
